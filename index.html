@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="forms-wrap">
+        <div class="container">
+        <h1>Contact Us!</h1>
+        <form>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Andrius" minlength="3" maxlength="20" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <label for="reference">Reference number</label>
+            <select id="reference" name="reference">
+                <option>1234234</option>
+                <option>2234234</option>
+                <option>3234234</option>
+            </select><br/>
+            <textarea placeholder="Your message goes here..."></textarea>
+            <div class="selector">
+                <span>Pasirinkimas
+                <input type="radio" id="contactChoice1" name="contact" value="email" />
+                <label for="contactChoice1">Email</label>
+          
+                <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                <label for="contactChoice2">Phone</label>
+          
+                <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                <label for="contactChoice3">Mail</label>
+              </span>
+              </div>
+            <span><input type="checkbox">Sutinku,kad mano duomenys butu naudojami.</span>
+            <input class="Send" type="submit" value="Send!" />
+
+        </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

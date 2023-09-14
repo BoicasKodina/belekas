@@ -1,0 +1,73 @@
+body {
+    background-image: url(./yifu-wu-1ICH4o9-pDA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 1280px;
+    width: 1920px;
+
+    
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.forms-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.container {
+    
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 15px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+label {
+    padding: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    background-color: rgba(255, 255, 255, 0.699);
+    border: none;
+    border-bottom: 1px black solid;
+    padding: 5px;
+    color: grey;
+    background: none;
+   
+}
+
+.Send {
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+    border: 1px black solid;
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+span {
+    padding-top: 20px;
+}
+
+.selector {
+    padding-top: 10px;
+}
